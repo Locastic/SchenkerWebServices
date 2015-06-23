@@ -1,7 +1,7 @@
 {
-    "name": "locastic/tcompayway",
+    "name": "locastic/Schenker-web-services",
     "type": "library",
-    "description": "T-com PayWay Library (HT PayWay API)",
+    "description": " PHP library for Schenker Web Services",
     "keyword": ["schenker", "web", "services", "norway", "shipping"],
     "homepage": "https://github.com/locastic/SchenkerWebServices",
     "license": "MIT",
