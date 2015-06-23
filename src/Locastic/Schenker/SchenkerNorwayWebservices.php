@@ -7,31 +7,26 @@ namespace Locastic\Schenker;
  */
 class SchenkerNorwayWebservices extends \SoapClient
 {
-
-    /**
-     * @var array $classmap The defined classes
-     * @access private
-     */
     private static $classmap = array(
-        'TrackAndTrace' => '\TrackAndTrace',
-        'TrackAndTraceResponse' => '\TrackAndTraceResponse',
-        'TrackAndTraceResultat' => '\TrackAndTraceResultat',
-        'Shipment' => '\Shipment',
-        'Documents' => '\Documents',
-        'POD' => '\POD',
-        'ColliObservation' => '\ColliObservation',
-        'TrackAndTracePODs' => '\TrackAndTracePODs',
-        'TrackAndTracePODsResponse' => '\TrackAndTracePODsResponse',
-        'TrackAndTracePODsResultat' => '\TrackAndTracePODsResultat',
-        'PriceAndTimeTable' => '\PriceAndTimeTable',
-        'FreightPriceArguments' => '\FreightPriceArguments',
-        'PriceAndTimeTableResponse' => '\PriceAndTimeTableResponse',
-        'PriceAndTimeTableResult' => '\PriceAndTimeTableResult',
-        'FreightPriceResultat' => '\FreightPriceResultat',
-        'ScheduledDeliveryTimeResultat' => '\ScheduledDeliveryTimeResultat',
-        'PriceAndTimeTableV2' => '\PriceAndTimeTableV2',
-        'FreightPriceArgumentsV2' => '\FreightPriceArgumentsV2',
-        'PriceAndTimeTableV2Response' => '\PriceAndTimeTableV2Response'
+        'TrackAndTrace' => 'Locastic\Schenker\TrackAndTrace',
+        'TrackAndTraceResponse' => 'Locastic\Schenker\TrackAndTraceResponse',
+        'TrackAndTraceResultat' => 'Locastic\Schenker\TrackAndTraceResultat',
+        'Shipment' => 'Locastic\Schenker\Shipment',
+        'Documents' => 'Locastic\Schenker\Documents',
+        'POD' => 'Locastic\Schenker\POD',
+        'ColliObservation' => 'Locastic\Schenker\ColliObservation',
+        'TrackAndTracePODs' => 'Locastic\Schenker\TrackAndTracePODs',
+        'TrackAndTracePODsResponse' => 'Locastic\Schenker\TrackAndTracePODsResponse',
+        'TrackAndTracePODsResultat' => 'Locastic\Schenker\TrackAndTracePODsResultat',
+        'PriceAndTimeTable' => 'Locastic\Schenker\PriceAndTimeTable',
+        'FreightPriceArguments' => 'Locastic\Schenker\FreightPriceArguments',
+        'PriceAndTimeTableResponse' => 'Locastic\Schenker\PriceAndTimeTableResponse',
+        'PriceAndTimeTableResult' => 'Locastic\Schenker\PriceAndTimeTableResult',
+        'FreightPriceResultat' => 'Locastic\Schenker\FreightPriceResultat',
+        'ScheduledDeliveryTimeResultat' => 'Locastic\Schenker\ScheduledDeliveryTimeResultat',
+        'PriceAndTimeTableV2' => 'Locastic\Schenker\PriceAndTimeTableV2',
+        'FreightPriceArgumentsV2' => 'Locastic\Schenker\FreightPriceArgumentsV2',
+        'PriceAndTimeTableV2Response' => 'Locastic\Schenker\PriceAndTimeTableV2Response'
     );
 
     /**
