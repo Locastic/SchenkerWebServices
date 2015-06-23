@@ -5,6 +5,7 @@
     "keyword": ["schenker", "web", "services", "norway", "shipping"],
     "homepage": "https://github.com/locastic/SchenkerWebServices",
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "locastic",
@@ -28,7 +29,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Locastic\\TcomPayWay": "src/"
+            "Locastic\\Schenker": "src/"
         }
     }
 }
