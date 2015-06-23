@@ -5,7 +5,7 @@ namespace Locastic\Schenker;
 /**
  * You must have a valid <b>user</b> and <b>password</b> to use these services.<br>
  */
-class Schenker_x0020_Norway_x0020_Webservices extends \SoapClient
+class SchenkerNorwayWebservices extends \SoapClient
 {
 
     /**
