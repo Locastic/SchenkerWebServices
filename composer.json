@@ -13,7 +13,8 @@
         },
         {
             "name": "Antonio Peric",
-            "email": "antonio@locastic.com"
+            "email": "antonio@locastic.com",
+            "homepage": "http://locastic.com"
         }
     ],
     "require": {
