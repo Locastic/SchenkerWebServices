@@ -1,5 +1,5 @@
 {
-    "name": "locastic/Schenker-web-services",
+    "name": "locastic/schenker-web-services",
     "type": "library",
     "description": " PHP library for Schenker Web Services",
     "keyword": ["schenker", "web", "services", "norway", "shipping"],
